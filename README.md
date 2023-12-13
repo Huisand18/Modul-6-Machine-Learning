@@ -2,7 +2,7 @@
 
 # Rock-Paper-Scissors Prediction App
 
-![Preview Image](E:\COM\SMT 7\MACHINE LEARNING\MODUL 5\rps\scissors\scissors01-013.png)
+![Preview Image](link_to_preview_image.jpg)
 
 A simple web application that uses a pre-trained deep learning model to predict whether an uploaded image contains a rock, paper, or scissors.
 
