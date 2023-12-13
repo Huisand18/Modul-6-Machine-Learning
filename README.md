@@ -1,8 +1,8 @@
-# Modul-6-Machine-Learning
 
-# Rock-Paper-Scissors Prediction App
+# Rock-Paper-Scissors Simple Prediction App
 
-![Scissors Image](file:///E:/COM/SMT07/MACHINE%20LEARNING/MODUL%205/rps/scissors/scissors01-019.png)
+<img src="Images/view.jpg" width="500"/>
+<img src="Images/result.jpg" width="500"/>
 
 A simple web application that uses a pre-trained deep learning model to predict whether an uploaded image contains a rock, paper, or scissors.
 
@@ -12,7 +12,7 @@ A simple web application that uses a pre-trained deep learning model to predict 
 3. [Requirements](#requirements)
 4. [How to Use](#how-to-use)
 5. [Contributing](#contributing)
-6. [License](#license)
+6. [Author](#author)
 
 ## Introduction
 
@@ -37,3 +37,25 @@ Install the dependencies using the following command:
 
 ```bash
 pip install -r requirements.txt
+```
+## How-to-Use
+
+Create virtual evironment
+```bash
+conda create -n myenv python=3
+conda activate myenv
+```
+Here's the command to run the program in the terminal using Flask:
+```bash
+flask run
+```
+## Contributing
+
+
+This simple program serves as an exemplary reference for users, providing a foundation for further exploration or as a stepping stone for more advanced research that could yield more sophisticated products. The code's simplicity makes it accessible for users to understand its basic structure and functionality, potentially inspiring them to extend its capabilities or integrate it into more complex applications. Whether used as a learning tool, a reference point, or the starting point for advanced research, this program offers versatility and adaptability to cater to diverse user needs in the realm of software development.
+
+## Author
+
+### machine learning
+
+Frederick Huisand Sutirto
