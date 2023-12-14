@@ -9,10 +9,11 @@ A simple web application that uses a pre-trained deep learning model to predict 
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Features](#features)
-3. [Requirements](#requirements)
-4. [How to Use](#how-to-use)
-5. [Contributing](#contributing)
-6. [Author](#author)
+3. [Dataset](#dataset)
+4. [Requirements](#requirements)
+5. [How to Use](#how-to-use)
+6. [Contributing](#contributing)
+7. [Author](#author)
 
 ## Introduction
 
@@ -23,6 +24,10 @@ This web application is designed to make predictions on images using a pre-train
 - Image upload for prediction.
 - Display of predicted class and confidence scores.
 - Simple and user-friendly interface.
+
+## Dataset
+<img src="Images/dataset.jpg" width="500"/>
+
 
 ## Requirements
 
