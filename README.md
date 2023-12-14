@@ -26,7 +26,10 @@ This web application is designed to make predictions on images using a pre-train
 - Simple and user-friendly interface.
 
 ## Dataset
-<img src="Images/dataset.jpg" width="500"/>
+This dataset comprises 2520 images categorized into three classes: paper, rock, and scissors. Each class contains 840 images. [You can access the dataset through the following](https://drive.google.com/drive/folders/1--SInWqD-WLF8I5LLGxZs9Y6p83tPmvN?usp=sharing).
+
+
+<img src="Images/dataset.png" width="1000"/>
 
 
 ## Requirements
