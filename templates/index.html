@@ -114,11 +114,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Prediction Form</title>
+    <title>Formulir Prediksi Modern</title>
     <style>
-        /* (CSS styling unchanged) */
+        /* (Gaya CSS tidak berubah) */
     </style>
     <script>
+        // Fungsi untuk melihat pratinjau gambar yang dipilih sebelum dikirim
         function previewImage() {
             var preview = document.getElementById('image-preview');
             var fileInput = document.getElementById('image-source');
@@ -143,20 +144,25 @@
     <section class="contact-section" id="predict1">
         <div class="container">
             <div class="title-box centred">
-                <div class="sec-title">Upload an Image to Make a Prediction</div>
+                <div class="sec-title">Unggah Gambar untuk Membuat Prediksi</div>
             </div>
             <form class="login100-form validate-form" action="/predict" method="post" enctype="multipart/form-data">
-                <img id="image-preview" alt="Image Preview" src="#" />
-                <div class="wrap-input100 validate-input" data-validate="Image file is required" id="input">
+                <!-- Elemen pratinjau gambar -->
+                <img id="image-preview" alt="Pratinjau Gambar" src="#" />
+
+                <!-- Input untuk memilih file gambar -->
+                <div class="wrap-input100 validate-input" data-validate="File gambar diperlukan" id="input">
                     <input class="input100" id="image-source" name="file" onchange="previewImage();" type="file"
-                        alt="Input Image" accept="image/jpeg,image/jpg,image/png">
+                        alt="Input Gambar" accept="image/jpeg,image/jpg,image/png">
                     <span class="focus-input100"></span>
                     <span class="symbol-input100">
                         <i class="fa fa-file" aria-hidden="true"></i>
                     </span>
                 </div>
+
+                <!-- Tombol kirim -->
                 <div class="container-login100-form-btn">
-                    <button class="login100-form-btn" type="submit">Execute</button>
+                    <button class="login100-form-btn" type="submit">Eksekusi</button>
                 </div>
             </form>
         </div>
@@ -164,4 +170,3 @@
 </body>
 
 </html>
-
