@@ -9,11 +9,12 @@ A simple web application that uses a pre-trained deep learning model to predict 
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Features](#features)
-3. [Dataset](#dataset)
-4. [Requirements](#requirements)
-5. [How to Use](#how-to-use)
-6. [Contributing](#contributing)
-7. [Author](#author)
+3. [Modeling](#modeling)
+4. [Dataset](#dataset)
+5. [Requirements](#requirements)
+6. [How to Use](#how-to-use)
+7. [Contributing](#contributing)
+8. [Author](#author)
 
 ## Introduction
 
@@ -24,6 +25,19 @@ This web application is designed to make predictions on images using a pre-train
 - Image upload for prediction.
 - Display of predicted class and confidence scores.
 - Simple and user-friendly interface.
+
+## Modeling
+VGG16 (Visual Geometry Group 16) is a convolutional neural network (CNN) architecture developed by the research team at the Visual Geometry Group at the University of Oxford. The term "16" refers to the total number of layers in the model. Here are some key points about the VGG16 model
+#### Architecture:
+- VGG16 consists of 16 layers organized in-depth, including 13 convolutional layers and 3 fully connected layers (Dense layers).
+- The convolutional layers consist of a series of 3x3 convolutions with padding 1, followed by ReLU activation layers and maximum pooling layers.
+<img src="Images/epoch.jpg" width="500"/>
+<img src="Images/akurasi.png" width="500"/>
+
+#### Repeated Convolution:
+- VGG16 is recognized for its consistent approach to using 3x3 convolution filters, applied iteratively.
+- The philosophy of using smaller filters helps in constructing more complex representations by leveraging the depth of the network.
+
 
 ## Dataset
 This dataset comprises 2520 images categorized into three classes: paper, rock, and scissors. Each class contains 840 images. [You can access the dataset through the following](https://drive.google.com/drive/folders/1--SInWqD-WLF8I5LLGxZs9Y6p83tPmvN?usp=sharing).
