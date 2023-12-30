@@ -1,8 +1,8 @@
 
 # Rock-Paper-Scissors Simple Prediction App
 
-<img src="Images/view.jpg" width="500"/>
-<img src="Images/result.jpg" width="500"/>
+<img src="Images/view.jpg" width="800"/>
+<img src="Images/result.jpg" width="800"/>
 
 A simple web application that uses a pre-trained deep learning model to predict whether an uploaded image contains a rock, paper, or scissors.
 
@@ -31,12 +31,15 @@ VGG16 (Visual Geometry Group 16) is a convolutional neural network (CNN) archite
 #### Architecture:
 - VGG16 consists of 16 layers organized in-depth, including 13 convolutional layers and 3 fully connected layers (Dense layers).
 - The convolutional layers consist of a series of 3x3 convolutions with padding 1, followed by ReLU activation layers and maximum pooling layers.
-<img src="Images/epoch.jpg" width="500"/>
-<img src="Images/akurasi.png" width="500"/>
-
 #### Repeated Convolution:
 - VGG16 is recognized for its consistent approach to using 3x3 convolution filters, applied iteratively.
 - The philosophy of using smaller filters helps in constructing more complex representations by leveraging the depth of the network.
+
+#### Train Model:
+<img src="Images/epoch.jpg" width="1000"/>
+
+#### Curves of loss and accuracy:
+<img src="Images/akurasi.png" width="1000"/>
 
 
 ## Dataset
